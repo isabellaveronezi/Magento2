@@ -22,7 +22,6 @@ class UpgradeData implements UpgradeDataInterface
                 ->insertForce(
                     $table,
                     [
-                        'example_id' => '2',
                         'title' => 'Magento',
                         'content' => 'This is test ok',
                         'created_at' => '2019-09-02',

@@ -17,7 +17,6 @@ class InstallData implements InstallDataInterface
         $setup->startSetup();
 
         $data =  [
-                   'example_id' => '1',
                    'title' => 'test',
                    'content' => 'test in Magento 2',
                    'created_at' => '2019-09-01',
@@ -28,7 +27,6 @@ class InstallData implements InstallDataInterface
                    'magestore_helloworld',
                    $data
                    );
-
         $setup->endSetup();
     }
 }
