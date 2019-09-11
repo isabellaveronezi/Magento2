@@ -6,8 +6,8 @@ use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 
-class Recurring implements InstallSchemaInterface
-{
+//class Recurring implements InstallSchemaInterface
+//{
 
     /**
      * Installs DB schema for a module
@@ -16,7 +16,7 @@ class Recurring implements InstallSchemaInterface
      * @param ModuleContextInterface $context
      * @return void
      */
-    public function install(SchemaSetupInterface $setup, ModuleContextInterface $context)
+   /* public function install(SchemaSetupInterface $setup, ModuleContextInterface $context)
     {
         $setup->startSetup();
 
@@ -25,3 +25,4 @@ class Recurring implements InstallSchemaInterface
         $setup->endSetup();
     }
 }
+*/

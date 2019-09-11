@@ -19,6 +19,5 @@ class index extends Action
     public function execute()
     {
         echo 'It is working!!';
-        die();
     }
 }
