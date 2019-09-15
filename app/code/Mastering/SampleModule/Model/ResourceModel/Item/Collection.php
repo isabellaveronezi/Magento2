@@ -10,12 +10,8 @@ class Collection extends AbstractCollection
 {
     protected $_idFieldName = 'id';
 
-    protected function __construct()
+    protected function _construct()
     {
-        $this->_init(
-            Item::class,
-            ItemResource::class
-
-        );
+        $this->_init(Item::class, ItemResource::class);
     }
 }
